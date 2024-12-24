@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  distDir: 'public', // Set the build output directory to "public"
   images: {
     remotePatterns: [
       {
